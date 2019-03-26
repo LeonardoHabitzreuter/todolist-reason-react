@@ -1,32 +1,30 @@
 ####{BSB GENERATED: NO EDIT
-FLG -ppx '/home/vmarcosp/Projects/reason-parcel/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
-FLG -ppx /home/vmarcosp/Projects/reason-parcel/node_modules/bs-platform/lib/bsppx.exe
-S /home/vmarcosp/Projects/reason-parcel/node_modules/bs-platform/lib/ocaml
-B /home/vmarcosp/Projects/reason-parcel/node_modules/bs-platform/lib/ocaml
+FLG -ppx '/Users/svj6536/dev/todolist-reason-react/node_modules/bs-platform/lib/reactjs_jsx_ppx_2.exe'
+FLG -ppx /Users/svj6536/dev/todolist-reason-react/node_modules/bs-platform/lib/bsppx.exe
+S /Users/svj6536/dev/todolist-reason-react/node_modules/bs-platform/lib/ocaml
+B /Users/svj6536/dev/todolist-reason-react/node_modules/bs-platform/lib/ocaml
 FLG -nostdlib -color always
 FLG -w -30-40+6+7+27+32..39+44+45+101
-S /home/vmarcosp/Projects/reason-parcel/node_modules/reason-react/lib/ocaml
-B /home/vmarcosp/Projects/reason-parcel/node_modules/reason-react/lib/ocaml
-S /home/vmarcosp/Projects/reason-parcel/node_modules/bs-moment/lib/ocaml
-B /home/vmarcosp/Projects/reason-parcel/node_modules/bs-moment/lib/ocaml
+S /Users/svj6536/dev/todolist-reason-react/node_modules/reason-react/lib/ocaml
+B /Users/svj6536/dev/todolist-reason-react/node_modules/reason-react/lib/ocaml
 S src
 B lib/bs/src
-S src/containers/components/checkbox
-B lib/bs/src/containers/components/checkbox
-S src/containers/components/blank-state
-B lib/bs/src/containers/components/blank-state
-S src/containers/components/footer
-B lib/bs/src/containers/components/footer
 S src/containers/components/logo
 B lib/bs/src/containers/components/logo
+S src/containers/components/blank-state
+B lib/bs/src/containers/components/blank-state
+S src/containers/components/checkbox
+B lib/bs/src/containers/components/checkbox
+S src/containers/components/footer
+B lib/bs/src/containers/components/footer
 S src/containers/todo
 B lib/bs/src/containers/todo
-S src/containers/todo/todo-list
-B lib/bs/src/containers/todo/todo-list
 S src/containers/todo/add-todo
 B lib/bs/src/containers/todo/add-todo
 S src/containers/todo/todo-item
 B lib/bs/src/containers/todo/todo-item
+S src/containers/todo/todo-list
+B lib/bs/src/containers/todo/todo-list
 S src/utils
 B lib/bs/src/utils
 ####BSB GENERATED: NO EDIT}

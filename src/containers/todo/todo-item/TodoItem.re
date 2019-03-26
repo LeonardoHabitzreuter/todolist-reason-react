@@ -1,7 +1,6 @@
 open TodoShared;
 open Utils;
 open Reasy;
-open MomentRe;
 
 cssfy("./style.scss");
 
@@ -11,8 +10,6 @@ let getItemClass = completed => completed ? "infos completed" : "infos";
 let formatDate = createdAt => createdAt
                             |> Js.Date.fromFloat
                             |> Js.Date.toString
-                            |> moment
-                            |> Moment.format("MMMM Do YYYY, h:mm:ss a")
                             |> strfy;
 
 /**
