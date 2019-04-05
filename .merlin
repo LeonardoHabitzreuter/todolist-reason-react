@@ -9,8 +9,6 @@ S /Users/svj6536/dev/todolist-reason-react/node_modules/reason-react/lib/ocaml
 B /Users/svj6536/dev/todolist-reason-react/node_modules/reason-react/lib/ocaml
 S src
 B lib/bs/src
-S src/containers/components/logo
-B lib/bs/src/containers/components/logo
 S src/containers/components/blank-state
 B lib/bs/src/containers/components/blank-state
 S src/containers/components/checkbox

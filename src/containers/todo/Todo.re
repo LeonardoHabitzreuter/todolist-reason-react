@@ -46,8 +46,6 @@ let make = _children => {
       tasks: state.tasks, 
       completeTodo: task => send(CompleteTask(task))
     }>
-      <Logo />
-      
       <div className="todo-container">
         <AddTodo
             onAddNewTodo={taskName => taskName->taskFactory->NewTask->send}
